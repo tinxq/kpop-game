@@ -3,11 +3,29 @@ import { images } from './images';
 import './App.css';
 
 const partyQuestions = [
-  'Who would you dance with?',
-  'Who brings the best snacks?',
-  'Who is the life of the party?',
-  'Who would you avoid at the party?',
+  'Who invites you to the party?',
+  'Who would you trust to drive you home?',
+'who would keep flirting with u all night ?',
+'who is your cousin ?',
+' who would make you blush the whole night ?',
+'who will playfully fight for your attention ?',
+'who will hold your waist while dancing ?',
+'who will make fun of ur outfit ?',
+'who is your ex ?',
+  'who is ur best friend ?',
+  'who would kiss ur best friend',
+' who would spill a drink on you and never say sorry?',
+' who would play seven minutes in heaven with you ?',
+'who would take you to get food ?',
+'who would you throw up on ?',
+'who would you sneak out with ?',
+' who secretly keep staring at you all night ?',
+'who would suddenly admit that he is gay ?',
+'who keeps pushing you on purpose while dancing ?',
+  'Who would you make out  with at the party?',
+  'end up with who at the party?'
 ];
+
 
 const PartyGame = ({ setCurrentGame }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

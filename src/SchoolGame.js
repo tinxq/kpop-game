@@ -3,10 +3,26 @@ import { images } from './images';
 import './App.css';
 
 const schoolQuestions = [
-  'Who is your classmate?',
-  'Who is your crush?',
-  'Who is your best friend?',
-  'Who is your ex?',
+  "Who is sitting next to you in class",
+  "Who makes you laugh in class",
+  "Who teases you the most",
+  "Who helps you with homework",
+  "Who gives you snacks",
+  "Who calls you cute nicknames",
+  "Who is your brother",
+  "Who always notices your new hairstyle",
+  "Who is your gay friend",
+  "Who is your gay friend’s boyfriend",
+  "Who loves to protect you",
+  "Who is your partner for the school festival",
+  "Who has a secret crush on you",
+  "Who you have a crush on",
+  "Who shares their hoodie with you",
+  "Who hates you",
+  "Who is your partner for the school trip",
+  "Who is your childhood friend",
+  " you end up with ",
+
 ];
 
 const SchoolGame = ({ setCurrentGame }) => {
@@ -15,7 +31,7 @@ const SchoolGame = ({ setCurrentGame }) => {
   const [isPickDisabled, setIsPickDisabled] = useState(false);
 
   const nextSchool = () => {
-    setCurrentQuestionIndex((prev) => (prev + 1) % schoolQuestions.length);
+   setCurrentQuestionIndex((prev) => (prev + 1) % schoolQuestions.length);
     setCurrentImage('');
     setIsPickDisabled(false);
   };
@@ -40,7 +56,7 @@ const SchoolGame = ({ setCurrentGame }) => {
         {currentImage ? (
           <img src={currentImage} alt="game" />
         ) : (
-          <p>No image selected</p>
+          <div className="placeholder">???</div>
         )}
       </div>
       <div className="buttons">

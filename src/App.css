@@ -39,9 +39,10 @@
 body {
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  background: #000000;
+  background: #e6d5d5;
   margin: 0;
   padding: 20px;
+
 }
 
 .cards-container {
@@ -120,15 +121,14 @@ body {
   pointer-events: none;
 }
 
-.game-page img:hover {
-  transform: translateY(-5px) rotate(1deg);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
 .question {
   margin-top: 100px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
+  background-color: #f8a6c7;
+ border: 5px solid black;
 }
 
 .card button {
@@ -148,7 +148,7 @@ body {
 }
 
 p {
-  color: #ffffff;
+  color: #000000;
 }
 
 h1 {
