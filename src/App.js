@@ -1,28 +1,34 @@
 import React, { useState } from 'react';
 import SchoolGame from './SchoolGame';
 import PartyGame from './PartyGame';
-import CollegeGame from './CollegeGame';
+import NeighborhoodGame from './NeighborhoodGame';
 import './App.css';
 
 const App = () => {
   const [currentGame, setCurrentGame] = useState('homePage');
 
   return (
-    <div>
+    <div className="app-container">
       <div id="homePage" className={currentGame === 'homePage' ? '' : 'hidden'}>
-        <h1>KPOP GAME </h1>
+        <h1>KPOP GAME</h1>
         <div className="cards-container">
-          <div className="card">
-            <p>School</p>
-            <button onClick={() => setCurrentGame('schoolGame')}>Play</button>
+          <div className="card school-card">
+            <div className="card-content">
+              <h3>School</h3>
+              <button onClick={() => setCurrentGame('schoolGame')}>Play</button>
+            </div>
           </div>
-          <div className="card">
-            <p>Party </p>
-            <button onClick={() => setCurrentGame('partyGame')}>Play</button>
+          <div className="card party-card">
+            <div className="card-content">
+              <h3>Party</h3>
+              <button onClick={() => setCurrentGame('partyGame')}>Play</button>
+            </div>
           </div>
-          <div className="card">
-            <p>College </p>
-            <button onClick={() => setCurrentGame('collegeGame')}>Play</button>
+          <div className="card neighborhood-card">
+            <div className="card-content">
+              <h3>Neighborhood</h3>
+              <button onClick={() => setCurrentGame('neighborhoodGame')}>Play</button>
+            </div>
           </div>
         </div>
       </div>
@@ -32,8 +38,8 @@ const App = () => {
       <div className={currentGame === 'partyGame' ? '' : 'hidden'}>
         <PartyGame setCurrentGame={setCurrentGame} />
       </div>
-      <div className={currentGame === 'collegeGame' ? '' : 'hidden'}>
-        <CollegeGame setCurrentGame={setCurrentGame} />
+      <div className={currentGame === 'neighborhoodGame' ? '' : 'hidden'}>
+        <NeighborhoodGame setCurrentGame={setCurrentGame} />
       </div>
     </div>
   );

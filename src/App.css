@@ -37,7 +37,7 @@
   }
 }
 body {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Press Start 2P",cursive;
   text-align: center;
   background: #e6d5d5;
   margin: 0;
@@ -57,7 +57,7 @@ body {
   background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 20px;
-  width: 200px;
+  width: 250px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
@@ -155,6 +155,7 @@ h1 {
   background-color: #f8a6c7;
   color: #000000;
   border-radius: 18px;
+  border: 5px solid black;
   height: 80px;
   padding-top: 5%;
   padding-left: -4%;
