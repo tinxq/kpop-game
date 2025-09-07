@@ -34,7 +34,7 @@ const PartyGame = ({ setCurrentGame }) => {
   const [showResults, setShowResults] = useState(false);
 
   const nextParty = () => {
-    // Save the current result if an image was selected
+ 
     if (currentImage) {
       const newResults = [...results];
       newResults[currentQuestionIndex] = {
@@ -44,7 +44,7 @@ const PartyGame = ({ setCurrentGame }) => {
       setResults(newResults);
     }
 
-    // Check if we've reached the end
+
     if (currentQuestionIndex === partyQuestions.length - 1) {
       setShowResults(true);
     } else {
