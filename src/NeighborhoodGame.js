@@ -3,6 +3,7 @@ import { images } from './images';
 import './App.css';
 
 const neighborhoodQuestions = [
+"still working on it"
 
 ];
 
@@ -80,6 +81,7 @@ const NeighborhoodGame = ({ setCurrentGame }) => {
   }
 
   return (
+
     <div id="neighborhoodGame" className="game-page">
       <div className="progress">
         Question {currentQuestionIndex + 1} of {neighborhoodQuestions.length}
