@@ -3,7 +3,30 @@ import { images } from './images';
 import './App.css';
 
 const neighborhoodQuestions = [
-"still working on it"
+ "who lives nextdoor",
+ "ur childhood bestfriend",
+ "the neighborhood bully",
+ "you are his secret crush",
+  "who is ur soulmate",
+  "who is ur teenage ex",
+ "ho protects u from boys",
+ "who is ur first love",
+ "who is ur childhood crush",
+ "who is the most popular but red flag",
+ "who is the green flag ",
+ "who is ur current ex",
+ "who is ur unemployed uncle",
+ "who stole ur first kiss",
+ "who was ur first date",
+ "who alwyays pranks u",
+ " who hates you since u were born",
+ "who is your brother",
+ "who is your brother's boyfriend",
+"who is your parents' favorite",
+"who is ur step dad's son",
+"who killed your pet",
+"end up with",
+
 
 ];
 

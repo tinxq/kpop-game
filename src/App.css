@@ -167,3 +167,62 @@ h1 {
 
 
 }
+.game-container {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.idol-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.options {
+  margin-top: 1rem;
+}
+
+.option-btn {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 60%;
+  transition: 0.3s;
+}
+
+.option-btn.correct {
+  background-color: green;
+}
+
+.option-btn.wrong {
+  background-color: red;
+}
+
+.option-btn:disabled {
+  cursor: not-allowed;
+}
+
+.progress {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}

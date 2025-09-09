@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SchoolGame from './SchoolGame';
 import PartyGame from './PartyGame';
 import NeighborhoodGame from './NeighborhoodGame';
+import GuessIdol from './GuessIdol';
 import './App.css';
 
 
@@ -31,6 +32,13 @@ const App = () => {
               <button onClick={() => setCurrentGame('neighborhoodGame')}>Play</button>
             </div>
           </div>
+
+          <div className="card idol-card">
+            <div className="card-content">
+              <h3>gusse the idol gsme </h3>
+              <button onClick={() => setCurrentGame('GuessIdol')}>Play</button>
+            </div>
+          </div>
         </div>
       </div>
       <div className={currentGame === 'schoolGame' ? '' : 'hidden'}>
@@ -42,6 +50,9 @@ const App = () => {
       <div className={currentGame === 'neighborhoodGame' ? '' : 'hidden'}>
         <NeighborhoodGame setCurrentGame={setCurrentGame} />
       </div>
+       <div className= {currentGame === 'GuessIdol' ? '' :'hidden'}>
+      <GuessIdol  setCurrentGame ={setCurrentGame} />
+    </div>
     </div>
   );
 };
