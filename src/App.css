@@ -226,3 +226,37 @@ h1 {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
+.timer{
+ font-family: "Press Start 2P",cursive;
+
+}
+.game-container h1{
+font-family: "Press Start 2P",cursive;
+
+}
+.game-container card{
+
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+
+}
+.idol-image{
+
+width: 162px;
+  height: 162px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
+}
+.answer{font-family: "Press Start 2P",cursive;}
+

@@ -29,5 +29,10 @@ export const images = [
   '/assets/photo28.JPG',
   '/assets/photo29.JPG',
   '/assets/photo30.JPG',
-  '/assets/photo31.JPG'
+  '/assets/photo31.JPG',
+  '/assets/photo32.JPG',
+  '/assets/photo33.JPG',
+  '/assets/photo34.JPG',
+  '/assets/photo35.JPG',
+  '/assets/photo36.JPG',
 ];

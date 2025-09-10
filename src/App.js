@@ -35,7 +35,7 @@ const App = () => {
 
           <div className="card idol-card">
             <div className="card-content">
-              <h3>gusse the idol gsme </h3>
+              <h3>gusse the group  </h3>
               <button onClick={() => setCurrentGame('GuessIdol')}>Play</button>
             </div>
           </div>
