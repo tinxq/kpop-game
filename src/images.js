@@ -1,5 +1,5 @@
 export const images = [
-  '/assets/photo1.JPG',
+  '/assets/photo1.JPEG',
   '/assets/photo2.JPG',
   '/assets/photo3.JPG',
   '/assets/photo4.JPG',
